@@ -1,0 +1,72 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+body .check {
+  opacity: 0;
+}
+
+body .check:checked + .icon .ball {
+  -webkit-transform: translateX(40px);
+          transform: translateX(40px);
+}
+
+body .icon {
+  width: 60px;
+  height: 22px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+  padding: 6px;
+  position: relative;
+}
+
+body .icon .fa-sun {
+  color: yellow;
+}
+
+body .icon .fa-moon {
+  color: white;
+}
+
+body .icon .ball {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  border-radius: 50px;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+/*# sourceMappingURL=style.css.map */
