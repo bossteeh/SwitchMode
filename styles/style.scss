@@ -16,7 +16,7 @@ body {
       opacity: 0;
 
       &:checked + .icon .ball{
-          transform: translateX(43px);
+          transform: translateX(40px);
       }
   }
   .icon {
@@ -33,7 +33,7 @@ body {
       color: yellow;
     }
     .fa-moon {
-      color: white;
+      color: grey;
     }
     .ball {
       width: 22px;
