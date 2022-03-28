@@ -7,10 +7,13 @@
 // }
 
 
-const mode = document.getElementById("checkbox");
+// const mode = document.getElementById("checkbox");
 
-mode.addEventListener("change", myCheck);
+// mode.addEventListener("change", myCheck);
 
-function myCheck(e){
-    document.body.classList.toggle('dark');
-}
+// function myCheck(e){
+//     document.body.classList.toggle('dark');
+// }
+
+
+checkbox.addEventListener("change", () => document.body.classList.toggle("red"))

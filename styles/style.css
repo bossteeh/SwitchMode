@@ -16,8 +16,8 @@ body {
   min-height: 100vh;
 }
 
-body.dark {
-  background-color: black;
+body.red {
+  background-color: red;
   color: white;
 }
 
